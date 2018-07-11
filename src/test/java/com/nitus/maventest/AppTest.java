@@ -1,4 +1,4 @@
-package com.nitus..maventest;
+package com.nitus.maventest;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
