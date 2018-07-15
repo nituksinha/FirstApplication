@@ -36,6 +36,13 @@
   <type>maven-plugin</type>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
+<dependency>
+    <groupId>org.apache.maven</groupId>
+    <artifactId>maven-plugin-api</artifactId>
+    <version>3.5.0-alpha-1</version>
+</dependency>
+
   </dependencies>
 <properties>
 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,7 +61,7 @@
                 <target>1.7</target>
           </configuration>
         </plugin>
-
+ 
 	 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-dependency-plugin</artifactId>
